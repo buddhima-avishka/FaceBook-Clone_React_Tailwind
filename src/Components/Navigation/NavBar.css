@@ -1,0 +1,34 @@
+.navBarBox{
+  height: 10vh;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.navBarLeft{
+  height: 10vh;
+  width: 20%;
+  /* background-color: red; */
+}
+
+.navBarCenter{
+  height: 10vh;
+  width: 50%;
+  /* background-color: yellow; */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.logo{
+  margin-left: 20px;
+}
+
+.searchBox{
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.navBarRight{
+  height: 10vh;
+  width: 30%;
+  /* background-color: yellowgreen; */
+}
