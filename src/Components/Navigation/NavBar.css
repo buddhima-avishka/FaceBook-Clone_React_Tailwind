@@ -1,34 +1,32 @@
 .navBarBox{
-  height: 10vh;
+  /* height: 10vh; */
   width: 100%;
   /* background-color: aqua; */
 }
 
 .navBarLeft{
-  height: 10vh;
-  width: 20%;
-  /* background-color: red; */
+  /* height: 10vh; */
+  width: 30%;
+  /* background-color: rgb(84, 158, 210); */
 }
 
 .navBarCenter{
-  height: 10vh;
-  width: 50%;
+  /* height: 10vh; */
+  width: 40%;
   /* background-color: yellow; */
-  margin-left: 20px;
-  margin-right: 20px;
 }
+
+/* .navBarCenterIcon{
+  height: 10vh;
+  width: 10%;
+} */
 
 .logo{
-  margin-left: 20px;
-}
-
-.searchBox{
-  margin-right: 20px;
-  padding: 5px;
+  height: 10vh;
 }
 
 .navBarRight{
-  height: 10vh;
+  /* height: 10vh; */
   width: 30%;
   /* background-color: yellowgreen; */
 }
