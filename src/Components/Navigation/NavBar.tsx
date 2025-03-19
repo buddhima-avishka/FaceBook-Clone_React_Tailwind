@@ -1,26 +1,25 @@
 import "./NavBar.css";
 import * as Tooltip from "@radix-ui/react-tooltip";
+import 'boxicons'
 
 function NavBar() {
   return (
-    <div className="navBarBox flex items-center bg-red-200 size-14 bg-white dark:bg-gray-800 ring shadow-xl ring-gray-900/5 border-2 border-b-gray-500">
+    <div className="navBarBox flex w-full items-center bg-red-200 size-14 bg-white dark:bg-gray-800 ring shadow-xl ring-gray-900/5 border-2 border-b-gray-500">
       <div className="navBarLeft flex items-center size-14 gap-2 px-3">
         <div className="logo bg-transparent flex items-center cursor-pointer">
           <img src="/Images/logo.png" className="logoImage size-10" />
         </div>
 
-        <div className="searchBox bg-gray-700 rounded-full flex content-center h-10 gap-2 px-3">
-          <div className="searchDiv grid content-center">
-            <img src="/Images/search.png" className="searchIcon size-4" />
-          </div>
-
-          <div className="inputDiv grid content-center">
+        <div className="searchBox bg-gray-700 rounded-full relative flex items-center justify-center h-10 gap-3 px-3">
+          
+            {/* <img src="/Images/search.png" className="searchIcon size-4 absolute" /> */}
+            <i className="bx bx-search absolute text-xl text-gray-400 left-3"></i>
             <input
               type="text"
               placeholder="Search FaceBook"
-              className="searchBar placeholder-gray-400 placeholder:font-light"
+              className="searchBar placeholder-gray-400 placeholder:font-light  text-base pl-7 outline-hidden"
             />
-          </div>
+
         </div>
       </div>
 
