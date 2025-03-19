@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Frutiger";
+  src: url("/fonts/Frutiger.woff2") format("woff2"),
+       url("/fonts/Frutiger.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "ProximaNovaA-Black";
+  src: url("/fonts/ProximaNovaA-Black.woff2") format("woff2"),
+       url("/fonts/ProximaNovaA-Black.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}

@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import * as Tooltip from "@radix-ui/react-tooltip";
 
 function NavBar() {
   return (
@@ -24,47 +25,161 @@ function NavBar() {
       </div>
 
       <div className="navBarCenter flex items-center size-14 gap-2 px-2">
-        <div className="navBarCenterIcon hover:bg-gray-600 active:bg-gray-500 hover:rounded-xl hover:h-12 grid place-content-center cursor-pointer active:border-b-4 border-indigo-500 w-1/5">
-          <img src="/Images/home.png" className="centerIcon size-7" />
-        </div>
+        <Tooltip.Provider>
+          <Tooltip.Root>
+            <Tooltip.Trigger asChild>
+              <div className="navBarCenterIcon hover:bg-gray-600 active:bg-gray-500 hover:rounded-xl hover:h-12 grid place-content-center cursor-pointer active:border-b-4 border-indigo-500 w-1/5">
+                <img src="/Images/home.png" className="centerIcon size-7" />
+              </div>
+            </Tooltip.Trigger>
+            <Tooltip.Content
+              side="top"
+              className="px-3 py-1 text-sm text-black bg-gray-300 rounded shadow-lg"
+            >
+              Home
+            </Tooltip.Content>
+          </Tooltip.Root>
+        </Tooltip.Provider>
 
-        <div className="navBarCenterIcon hover:bg-gray-600 active:bg-gray-500 hover:rounded-xl hover:h-12 grid place-content-center cursor-pointer active:border-b-4 border-indigo-500 w-1/5">
-          <img src="/Images/video.png" className="centerIcon size-7" />
-        </div>
+        <Tooltip.Provider>
+          <Tooltip.Root>
+            <Tooltip.Trigger asChild>
+              <div className="navBarCenterIcon hover:bg-gray-600 active:bg-gray-500 hover:rounded-xl hover:h-12 grid place-content-center cursor-pointer active:border-b-4 border-indigo-500 w-1/5">
+                <img src="/Images/video.png" className="centerIcon size-7" />
+              </div>
+            </Tooltip.Trigger>
+            <Tooltip.Content
+              side="top"
+              className="px-3 py-1 text-sm text-black bg-gray-300 rounded shadow-lg"
+            >
+              Video
+            </Tooltip.Content>
+          </Tooltip.Root>
+        </Tooltip.Provider>
 
-        <div className="navBarCenterIcon hover:bg-gray-600 active:bg-gray-500 hover:rounded-xl hover:h-12 grid place-content-center cursor-pointer active:border-b-4 border-indigo-500 w-1/5">
-          <img src="/Images/marketplace.png" className="centerIcon size-7" />
-        </div>
+        <Tooltip.Provider>
+          <Tooltip.Root>
+            <Tooltip.Trigger asChild>
+              <div className="navBarCenterIcon hover:bg-gray-600 active:bg-gray-500 hover:rounded-xl hover:h-12 grid place-content-center cursor-pointer active:border-b-4 border-indigo-500 w-1/5">
+                <img
+                  src="/Images/marketplace.png"
+                  className="centerIcon size-7"
+                />
+              </div>
+            </Tooltip.Trigger>
+            <Tooltip.Content
+              side="top"
+              className="px-3 py-1 text-sm text-black bg-gray-300 rounded shadow-lg"
+            >
+              Marketplace
+            </Tooltip.Content>
+          </Tooltip.Root>
+        </Tooltip.Provider>
 
-        <div className="navBarCenterIcon hover:bg-gray-600 active:bg-gray-500 hover:rounded-xl hover:h-12 grid place-content-center cursor-pointer active:border-b-4 border-indigo-500 w-1/5">
-          <img src="/Images/groups.png" className="centerIcon size-7" />
-        </div>
+        <Tooltip.Provider>
+          <Tooltip.Root>
+            <Tooltip.Trigger asChild>
+              <div className="navBarCenterIcon hover:bg-gray-600 active:bg-gray-500 hover:rounded-xl hover:h-12 grid place-content-center cursor-pointer active:border-b-4 border-indigo-500 w-1/5">
+                <img src="/Images/groups.png" className="centerIcon size-7" />
+              </div>
+            </Tooltip.Trigger>
+            <Tooltip.Content
+              side="top"
+              className="px-3 py-1 text-sm text-black bg-gray-300 rounded shadow-lg"
+            >
+              Groups
+            </Tooltip.Content>
+          </Tooltip.Root>
+        </Tooltip.Provider>
 
-        <div className="navBarCenterIcon hover:bg-gray-600 active:bg-gray-500 hover:rounded-xl hover:h-12 grid place-content-center cursor-pointer active:border-b-4 border-indigo-500 w-1/5">
-          <img src="/Images/gaming.png" className="centerIcon size-7" />
-        </div>
+        <Tooltip.Provider>
+          <Tooltip.Root>
+            <Tooltip.Trigger asChild>
+              <div className="navBarCenterIcon hover:bg-gray-600 active:bg-gray-500 hover:rounded-xl hover:h-12 grid place-content-center cursor-pointer active:border-b-4 border-indigo-500 w-1/5">
+                <img src="/Images/gaming.png" className="centerIcon size-7" />
+              </div>
+            </Tooltip.Trigger>
+            <Tooltip.Content
+              side="top"
+              className="px-3 py-1 text-sm text-black bg-gray-300 rounded shadow-lg"
+            >
+              Gaming
+            </Tooltip.Content>
+          </Tooltip.Root>
+        </Tooltip.Provider>
       </div>
 
       <div className="navBarRight flex items-center justify-end size-14 gap-3 px-3">
-        <div className="navBarRightIcon bg-blue-400 size-10 rounded-full grid place-content-center bg-gray-700 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
-          <img src="/Images/menu.png" className="rightIcon size-5" />
-        </div>
+        <Tooltip.Provider>
+          <Tooltip.Root>
+            <Tooltip.Trigger asChild>
+              <div className="navBarRightIcon bg-blue-400 size-10 rounded-full grid place-content-center bg-gray-700 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+                <img src="/Images/menu.png" className="rightIcon size-5" />
+              </div>
+            </Tooltip.Trigger>
+            <Tooltip.Content
+              side="top"
+              className="px-3 py-1 text-sm text-black bg-gray-300 rounded shadow-lg"
+            >
+              Menu
+            </Tooltip.Content>
+          </Tooltip.Root>
+        </Tooltip.Provider>
 
-        <div className="navBarRightIcon bg-blue-400 size-10 rounded-full grid place-content-center bg-gray-700 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
-          <img src="/Images/message.png" className="rightIcon size-5" />
-        </div>
+        <Tooltip.Provider>
+          <Tooltip.Root>
+            <Tooltip.Trigger asChild>
+              <div className="navBarRightIcon bg-blue-400 size-10 rounded-full grid place-content-center bg-gray-700 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+                <img src="/Images/message.png" className="rightIcon size-5" />
+              </div>
+            </Tooltip.Trigger>
+            <Tooltip.Content
+              side="top"
+              className="px-3 py-1 text-sm text-black bg-gray-300 rounded shadow-lg"
+            >
+              Messenger
+            </Tooltip.Content>
+          </Tooltip.Root>
+        </Tooltip.Provider>
 
-        <div className="navBarRightIcon bg-blue-400 size-10 rounded-full grid place-content-center bg-gray-700 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
-          <img src="/Images/notifications.png" className="rightIcon size-5" />
-        </div>
+        <Tooltip.Provider>
+          <Tooltip.Root>
+            <Tooltip.Trigger asChild>
+              <div className="navBarRightIcon bg-blue-400 size-10 rounded-full grid place-content-center bg-gray-700 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+                <img
+                  src="/Images/notifications.png"
+                  className="rightIcon size-5"
+                />
+              </div>
+            </Tooltip.Trigger>
+            <Tooltip.Content
+              side="top"
+              className="px-3 py-1 text-sm text-black bg-gray-300 rounded shadow-lg"
+            >
+              Notifications
+            </Tooltip.Content>
+          </Tooltip.Root>
+        </Tooltip.Provider>
 
-        <div className="navBarRightIcon bg-blue-400 size-10 rounded-full grid place-content-center cursor-pointer">
-          <img
-            src="/Images/propic.jpeg"
-            alt="profile"
-            className="profilePic size-10 rounded-full"
-          />
-        </div>
+        <Tooltip.Provider>
+          <Tooltip.Root>
+            <Tooltip.Trigger asChild>
+              <div className="navBarRightIcon bg-blue-400 size-10 rounded-full grid place-content-center cursor-pointer">
+                <img
+                  src="/Images/propic.jpeg"
+                  alt="profile"
+                  className="profilePic size-10 rounded-full"
+                />
+              </div>
+            </Tooltip.Trigger>
+            <Tooltip.Content
+              side="top"
+              className="px-3 py-1 text-sm text-black bg-gray-300 rounded shadow-lg"
+            >
+              Account
+            </Tooltip.Content>
+          </Tooltip.Root>
+        </Tooltip.Provider>
       </div>
     </div>
   );

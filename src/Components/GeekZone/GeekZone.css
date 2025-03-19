@@ -1,0 +1,33 @@
+.topic{
+  font-family: "ProximaNovaA-Black";
+  font-size: 60px;
+  color: white;
+}
+
+.topicHighlighted{
+  color: #4fb777;
+}
+
+.content{
+  font-family: "Frutiger";
+  font-size: 18px;
+  color: #9E9E9E;
+}
+
+.topicBox{
+  background-color: #0b160d;
+}
+
+.contentBox{
+  background-color: #0b160d;
+}
+
+.logoBox{
+  background-color: #0b160d;
+}
+
+
+
+.RightSection{
+  background-color: #0b160d;
+}
