@@ -1,29 +1,26 @@
 import "./NavBar.css";
 import * as Tooltip from "@radix-ui/react-tooltip";
-import 'boxicons'
+import "boxicons";
 
 function NavBar() {
   return (
-    <div className="navBarBox flex w-full items-center bg-red-200 size-14 bg-white dark:bg-gray-800 ring shadow-xl ring-gray-900/5 border-2 border-b-gray-500">
-      <div className="navBarLeft flex items-center size-14 gap-2 px-3">
-        <div className="logo bg-transparent flex items-center cursor-pointer">
+    <div className="navBarBox flex w-full items-center size-14 dark:bg-gray-800 ring shadow-xl ring-gray-900/5 border-2 border-b-gray-500">
+      <div className="navBarLeft w-2/5 md:w-2/7 flex items-center size-14 gap-2 px-3">
+        <div className="logo bg-transparent cursor-pointer size-10 rounded-full grid place-content-center ">
           <img src="/Images/logo.png" className="logoImage size-10" />
         </div>
 
-        <div className="searchBox bg-gray-700 rounded-full relative flex items-center justify-center h-10 gap-3 px-3">
-          
-            {/* <img src="/Images/search.png" className="searchIcon size-4 absolute" /> */}
-            <i className="bx bx-search absolute text-xl text-gray-400 left-3"></i>
-            <input
-              type="text"
-              placeholder="Search FaceBook"
-              className="searchBar placeholder-gray-400 placeholder:font-light  text-base pl-7 outline-hidden"
-            />
-
+        <div className="searchBox rounded-full bg-gray-700 rounded-full relative flex items-center justify-center h-10 gap-3 px-5 xl:px-3 ">
+          <i className="bx bx-search absolute text-xl text-gray-400 left-3"></i>
+          <input
+            type="text"
+            placeholder="Search FaceBook"
+            className="searchBar hidden xl:flex placeholder-gray-400 placeholder:font-light  text-base pl-7 outline-hidden"
+          />
         </div>
       </div>
 
-      <div className="navBarCenter flex items-center size-14 gap-2 px-2">
+      <div className="navBarCenter w-hidden md:w-3/7 flex items-center size-14 gap-2 px-2">
         <Tooltip.Provider>
           <Tooltip.Root>
             <Tooltip.Trigger asChild>
@@ -108,7 +105,7 @@ function NavBar() {
         </Tooltip.Provider>
       </div>
 
-      <div className="navBarRight flex items-center justify-end size-14 gap-3 px-3">
+      <div className="navBarRight w-3/5 md:w-2/7 flex items-center justify-end size-14 gap-3 px-3">
         <Tooltip.Provider>
           <Tooltip.Root>
             <Tooltip.Trigger asChild>
