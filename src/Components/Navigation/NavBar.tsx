@@ -20,7 +20,7 @@ function NavBar() {
         </div>
       </div>
 
-      <div className="navBarCenter w-hidden md:w-3/7 flex items-center size-14 gap-2 px-2">
+      <div className="navBarCenter invisible md:visible md:w-3/7 flex items-center size-14 gap-2 px-2">
         <Tooltip.Provider>
           <Tooltip.Root>
             <Tooltip.Trigger asChild>

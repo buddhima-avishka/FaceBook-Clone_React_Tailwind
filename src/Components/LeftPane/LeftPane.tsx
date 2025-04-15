@@ -2,7 +2,7 @@ import "./LeftPane.css";
 
 function LeftPane() {
   return (
-    <div className="dark:bg-gray-800 col-span-1 h-screen overflow-y-scroll custom-scrollbar p-2 pt-3">
+    <div className="hidden lg:block dark:bg-gray-800 col-span-1 h-screen overflow-y-scroll custom-scrollbar p-2 pt-3">
       <div className="icons pb-2">
         <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/propic.jpeg" className="size-8 rounded-full" />
