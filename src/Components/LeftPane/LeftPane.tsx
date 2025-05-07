@@ -40,47 +40,47 @@ function LeftPane() {
           <img src="/Images/ads manager.png" className="size-8" />
           <span className="iconName pl-4 text-white">Ads Manager</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/birthdays.png" className="size-8" />
           <span className="iconName pl-4 text-white">Birthdays</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/climate.png" className="size-8" />
           <span className="iconName pl-4 text-white">Climate Science Center</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/fundraisers.png" className="size-8" />
           <span className="iconName pl-4 text-white">Fundraisers</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/gaming video.png" className="size-8" />
           <span className="iconName pl-4 text-white">Gaming Video</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/messenger.png" className="size-8" />
           <span className="iconName pl-4 text-white">Messenger</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/messenger kids.png" className="size-8" />
           <span className="iconName pl-4 text-white">Messenger Kids</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/orders.png" className="size-8" />
           <span className="iconName pl-4 text-white">Orders & payments</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/pages.png" className="size-8" />
           <span className="iconName pl-4 text-white">Pages</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/game.png" className="size-8" />
           <span className="iconName pl-4 text-white">Play games</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/recent.png" className="size-8" />
           <span className="iconName pl-4 text-white">Recent ad activity</span>
         </li>
-        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 active:bg-gray-500 cursor-pointer">
+        <li className="leftIcon flex h-15 items-center pl-6 pt-2 pb-2 hover:bg-gray-600 rounded-lg active:bg-gray-500 cursor-pointer">
           <img src="/Images/reel.png" className="size-8" />
           <span className="iconName pl-4 text-white">Reels</span>
         </li>
